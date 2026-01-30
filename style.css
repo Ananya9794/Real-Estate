@@ -487,6 +487,7 @@
             gap: 30px;
             max-width: 1000px;
             margin: 0 auto;
+            padding:20px;
         }
 
         /* City card */
@@ -1079,14 +1080,23 @@
   margin: 15px 0px;
 }
 
-.content-data{
+/* .content-data{
   display: Flex;
   justify-content: start;
   align-items: center;
-  gap: 100px;
+  gap: 10px;
   margin: 50px 0px;
   width: 400px;
   flex-wrap: wrap;
+  
+} */
+.content-data{
+  display: Flex;
+   justify-content: start;
+  align-items: center;
+ padding:20px 0px;
+  flex-wrap: wrap;
+  gap:40px;
   
 }
 .data p{
@@ -1216,3 +1226,4 @@ footer {
             width: 90%;
         }
     }
+
